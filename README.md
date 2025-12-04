@@ -1,9 +1,9 @@
-# christmas-coding-challenge-2025
+# 🎄 christmas-coding-challenge-2025
 This is a repository to keep track of the Christmas coding challenge 2025 organised by Women Coding Community.
 
-# LeetCode Challenge
+# 💻 LeetCode Challenge
 
-## Daily Progress
+## 📅 Daily Progress
 
 ### Day 1
 **File:** `Day1.py`
@@ -51,7 +51,7 @@ This is a repository to keep track of the Christmas coding challenge 2025 organi
 
 ---
 
-## Statistics
+## 📊 Statistics
 - **Total Days:** 4
 - **Total Problems Solved:** 9
 - **Topics Covered:** Hash Maps, Two Pointers, Arrays, BFS/DFS, Sorting, Sliding Window
