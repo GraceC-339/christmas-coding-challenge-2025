@@ -20,4 +20,9 @@ class CombinationsSolution:
         backtrack(1,[])
 
         return result
-    
+
+# Solution:
+# We use backtracking to explore all combinations. We start from a given number and build the
+# combination by adding numbers sequentially until we reach the desired length k.
+# Time Complexity: O(C(n, k) * k) where C(n, k)
+# Space Complexity: O(k) for the recursion stack
