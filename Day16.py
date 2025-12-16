@@ -5,7 +5,7 @@ class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
-        
+
 
 #206. Reverse Linked List
 #https://leetcode.com/problems/reverse-linked-list/
@@ -22,15 +22,17 @@ class ReverseLinkedListSolution:
             curr = temp
         
         return prev
+#Solution:
+# We maintain two pointers, prev and curr. Initially, prev is set to None and curr is set to head.
+# We iterate through the linked list, reversing the next pointer of each node to point to the previous node.
+# After processing all nodes, prev will point to the new head of the reversed linked list.
+# The time complexity is O(n) and the space complexity is O(1).
 
 
 #876. Middle of the Linked List
 #https://leetcode.com/problems/middle-of-the-linked-list/
 # Given the head of a singly linked list, return the middle node of the linked list.
 # If there are two middle nodes, return the second middle node.
-
-
-
 class MiddleLinkedListSolution:
     def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
         slow = fast = head
