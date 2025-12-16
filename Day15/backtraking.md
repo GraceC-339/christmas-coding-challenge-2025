@@ -8,6 +8,5 @@ Key idea:
 2. Explore recursively (DFS)
 3. Undo the choice if it doesn't work ('backtrack')
 
-## 
 
 
